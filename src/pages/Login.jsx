@@ -19,7 +19,7 @@ function Login() {
 
 
     try {
-      const res = await axios.post("http://localhost:3000/login", {
+      const res = await axios.post("https://assignment-backend-production-1a26.up.railway.app/login", {
         email: data.email,
         password: data.password,
       });
