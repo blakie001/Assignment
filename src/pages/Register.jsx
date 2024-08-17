@@ -25,7 +25,7 @@ function Register() {
     dispatch(RegisterStart()); // Start registration process
 
     try {
-      const res = await axios.post("http://localhost:3000/signup", {
+      const res = await axios.post("https://assignment-backend-production-1a26.up.railway.app/signup", {
         username: data.username,
         email: data.email,
         password: data.password,
